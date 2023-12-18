@@ -138,5 +138,47 @@
       app.Start(): Initiates the web server, causing it to start listening for incoming HTTP requests on the specified port (9092 in this case).
       In summary, this main function sets up a web server using the gofr framework, defines routes for CRUD operations on student records, and associates these routes with corresponding methods in the handler type. The handler, in turn, interacts with a datastore to perform the necessary operations on student data. The server starts listening for incoming requests after configuration.
     
-    
+## Prerequisites
+
+Before running the project, ensure you have the following installed:
+
+- [Go](https://golang.org/dl/) (Version 1.16 or later)
+- [Git](https://git-scm.com/downloads) 
+- [GoFr](https://gofr.dev/docs)
+- Make sure to install it using the following command:
+  ```
+  go get gofr.dev
+- [Docker](https://hub.docker.com/_/mysql)
+- To simplify the setup and management of the database for your REST API, consider using a Docker image for SQL.
+
+  
+## Running the Project
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/Pratishtha33/Go.git
+
+2. change the directory
+   ```bash
+   cd .\Go
+
+4. Install Dependencies:
+   ```bash
+   go get -u ./...
+
+5. Build and Run the Application:
+   ```bash
+   go run main.go
+
+# Unit Testing
+
+1.  Test Datastore: 
+    ```bash
+     go test ./datastore
+
+2. Test Handler:
+   ```bash
+     go test ./handler
+
 
