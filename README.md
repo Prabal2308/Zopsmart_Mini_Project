@@ -1,4 +1,4 @@
-# Student_Record_Maintainence_System
+# 📂 Student_Record_Maintainence_System
  
  This is a mini for a Student record management system which is implemented using GOfr and go language.
 
@@ -171,7 +171,7 @@ Before running the project, ensure you have the following installed:
    ```bash
    go run main.go
 
-# Unit Testing
+# 🧪 Unit Testing
 
 1.  Test Datastore: 
     ```bash
