@@ -1,3 +1,19 @@
+package datastore
+
+import (
+	"database/sql"
+	"gofr.dev/pkg/errors"
+	"gofr.dev/pkg/gofr"
+
+	"github.com/Prabal2308/Zopsmart_Mini_Project/model"
+)
+
+type student struct{}
+
+func New() *student {
+	return &student{}
+}
+
 func (s *student) GetByID(ctx *gofr.Context, id string) (*model.Student, error) {  
 	var resp model.Student  
 	

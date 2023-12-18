@@ -6,8 +6,8 @@ import (
 	"gofr.dev/pkg/errors"
 	"gofr.dev/pkg/gofr"
 
-	"simple-rest-api/datastore"
-	"simple-rest-api/model"
+	"github.com/Prabal2308/Zopsmart_Mini_Project/datastore"
+	"github.com/Prabal2308/Zopsmart_Mini_Project/model"
 )
 
 type handler struct {
