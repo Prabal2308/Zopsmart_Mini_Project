@@ -1,4 +1,4 @@
-# Zopsmart_Mini_Project
+# Student_Record_Maintainence_System
  
  This is a mini for a Student record management system which is implemented using GOfr and go language.
 
